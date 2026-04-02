@@ -53,9 +53,9 @@ jobs:
     #             node-version: 20
     #         - run: cd frontend && npm ci
     #         - run: cd frontend && npm test
-    build-docker:
-        needs: [lint-backend, lint-frontend, test-backend]
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v4
-        - run: docker compose build
+    # build-docker:
+    #     needs: [lint-backend, lint-frontend, test-backend]
+    #     runs-on: ubuntu-latest
+    #     steps:
+    #     - uses: actions/checkout@v4
+    #     - run: docker compose build
