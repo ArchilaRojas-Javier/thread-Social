@@ -43,6 +43,7 @@ jobs:
               with:
                 node-version: 22
                 cache: 'npm'
+                cache-dependency-path: backend/package-lock.json
             - run: cd backend && npm ci
             - run: cd backend && npm test
     # test-frontend:
