@@ -9,7 +9,7 @@ Ce projet a été développé à des fins pédagogiques afin d’illustrer les b
 - Node.js
 - Express
 - Sequelize (ORM)
-- MySQL / PostgreSQL
+- PostgreSQL
 - JSON Web Tokens (JWT)
 - Jest (testing)
 
@@ -18,8 +18,7 @@ Ce projet a été développé à des fins pédagogiques afin d’illustrer les b
 - Vite
 - TypeScript
 - React Router
-- Context API (o Zustand)
-- Axios
+- Context API
 
 ### DevOps
 - Docker & Docker Compose
