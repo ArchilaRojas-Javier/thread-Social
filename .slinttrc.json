@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "files": ["backend/**/*.js"],
+      "env": {
+        "node": true,
+        "es2021": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "script"
+      },
+      "rules": {
+        "@typescript-eslint/no-require-imports": "off",
+        "no-undef": "off",
+        "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+      }
+    }
+  ]
+}
