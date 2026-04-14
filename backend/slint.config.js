@@ -1,0 +1,21 @@
+module.exports = {
+  "overrides": [
+    {
+      "files": ["backend/**/*.js"],
+      "parser": "espree",
+      "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "script"
+      },
+      "env": {
+        "node": true,
+        "es2021": true
+      },
+      "rules": {
+        "@typescript-eslint/no-require-imports": "off",
+        "no-undef": "off",
+        "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+      }
+    }
+  ]
+}
