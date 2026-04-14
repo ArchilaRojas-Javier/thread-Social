@@ -31,7 +31,7 @@ export default [
       
       "@typescript-eslint/no-require-imports": "off",
       "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
-      /
+      
       "no-undef": "off",
     },
   },
