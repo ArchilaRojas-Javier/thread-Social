@@ -3,17 +3,17 @@
 > Application web full stack de type réseau social (inspirée de Twitter/X)  
 > Les utilisateurs peuvent publier des threads, commenter et consulter leur fil d'actualité.
 
-*Status
-*Node.js
-*React
-*TypeScript
-*Docker
-*CI/CD
-*Jest
+|Status
+|Node.js
+|React
+|TypeScript
+|Docker
+|CI/CD
+|Jest
 
 ---
 
-## 📋 Table des matières
+## Table des matières
 
 - [À propos](#-à-propos)
 - [Stack technique](#-stack-technique)
@@ -40,23 +40,23 @@ Projet personnel développé pour illustrer les bonnes pratiques de développeme
 ## Stack technique
 
 ### Backend
-*Node.js
-*Express
-*Sequelize
-*PostgreSQL
-*JWT
-*Jest
+|Node.js
+|Express
+|Sequelize
+|PostgreSQL
+|JWT
+|Jest
 
 ### Frontend
-*React
-*Vite
-*TypeScript
+|React
+|Vite
+|TypeScript
 
 
 
 ### DevOps
-*Docker
-*GitHub Actions
+|Docker
+|GitHub Actions
 
 ---
 
@@ -176,9 +176,9 @@ Ce projet applique les principes suivants :
 ## Auteur
 
 **Javier Archila Rojas** — Développeur Web & Mobile Junior  
-📍 Toulouse, France  
-✉️ javier.ar23@proton.me  
-🔗 [github.com/ArchilaRojas-Javier](https://github.com/ArchilaRojas-Javier)
+Toulouse, France  
+javier.ar23@proton.me  
+[github.com/ArchilaRojas-Javier](https://github.com/ArchilaRojas-Javier)
 
 ---
 
