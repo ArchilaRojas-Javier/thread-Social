@@ -1,15 +1,15 @@
-# 🧵 Thread Social
+# Thread Social
 
 > Application web full stack de type réseau social (inspirée de Twitter/X)  
 > Les utilisateurs peuvent publier des threads, commenter et consulter leur fil d'actualité.
 
-![Status](https://img.shields.io/badge/Status-En%20développement-orange?style=flat)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Jest](https://img.shields.io/badge/Tests-Jest-C21325?style=flat&logo=jest&logoColor=white)
+*Status
+*Node.js
+*React
+*TypeScript
+*Docker
+*CI/CD
+*Jest
 
 ---
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 📌 À propos
+##  À propos
 
 Projet personnel développé pour illustrer les bonnes pratiques de développement full stack :
 
@@ -37,30 +37,30 @@ Projet personnel développé pour illustrer les bonnes pratiques de développeme
 
 ---
 
-## 🛠 Stack technique
+## Stack technique
 
 ### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=sequelize&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+*Node.js
+*Express
+*Sequelize
+*PostgreSQL
+*JWT
+*Jest
 
 ### Frontend
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white)
+*React
+*Vite
+*TypeScript
+
 
 
 ### DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+*Docker
+*GitHub Actions
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 thread-Social/
@@ -90,7 +90,7 @@ thread-Social/
 
 ---
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
 ### Prérequis
 - [Docker](https://www.docker.com/) & Docker Compose
@@ -121,7 +121,7 @@ docker compose up --build
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 ### Infrastructure & DevOps
 - [x] Structure du projet (backend / frontend / docker)
@@ -160,7 +160,7 @@ docker compose up --build
 
 ---
 
-## ✅ Bonnes pratiques
+##  Bonnes pratiques
 
 Ce projet applique les principes suivants :
 
@@ -173,7 +173,7 @@ Ce projet applique les principes suivants :
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Javier Archila Rojas** — Développeur Web & Mobile Junior  
 📍 Toulouse, France  
