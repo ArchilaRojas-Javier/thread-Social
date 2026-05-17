@@ -2,6 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import express, { Request, Response, NextFunction } from 'express';
+import cors from 'cors';
 import sequelize from './config/database';
 import './models'; // initialize associations
 
@@ -13,6 +14,7 @@ import likeRoutes from './routes/likeRoutes';
 const app = express();
 const PORT = Number(process.env['PORT'] ?? 3000);
 
+app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
 app.use(express.json());
 
 app.get('/health', (_req, res) => {

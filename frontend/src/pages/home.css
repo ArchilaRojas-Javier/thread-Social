@@ -1,0 +1,69 @@
+.home-wrapper {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: -0.5px;
+}
+
+.home-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-username {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.home-logout {
+  font-size: 13px;
+  font-family: var(--sans);
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.home-logout:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.home-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-welcome {
+  font-size: 20px;
+  color: var(--text-h);
+}
+
+.home-coming {
+  font-size: 15px;
+  color: var(--text);
+}
